@@ -1,11 +1,10 @@
 # Group Authentication
----
 Administrators of Judge0 can configure Judge0 to require you to have an authentication token (a.k.a. API key).
 If that is the case with the instance of Judge0 you are using, then you
 should provide `X-Auth-Token` header field in **every** API request.
 
 ## Authenticate
-Check if your authentication token is valid.
+* Check if your authentication token is valid.
 ---
 ### Note
 * `X-Auth-Token` is default header field name, but administrators of Judge0 instance you are using
